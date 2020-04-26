@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Manrope", sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Manrope", sans-serif;
+  background: #2e9f79;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 90px;
+  padding: 0 40px;
+
+  .logo {
+    font-weight: 700;
+    color: #1b2031;
+
+    span {
+      color: white;
+    }
+  }
+
+  .menu {
+    ul {
+      display: flex;
+
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        a {
+          text-decoration: none;
+          color: white;
+          font-size: 0.9rem;
+          padding-right: 20px;
+        }
+      }
+    }
+
+    .menu-btn {
+      background: white;
+      padding: 10px;
+      border-radius: 12px;
+      width: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #2e9f79;
+    }
+  }
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+
+  #home {
+    height: calc(100vh - 90px);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .info-section {
+      width: 50%;
+
+      h1 {
+        font-size: 5rem;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 2rem;
+      }
+
+      h4 {
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: white;
+        margin-bottom: 2rem;
+        letter-spacing: 1px;
+      }
+
+      .call-actions {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .android-btn,
+        .apple-btn {
+          padding: 15px;
+          border-radius: 12px;
+          width: 160px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-decoration: none;
+          color: white;
+          font-size: 1rem;
+        }
+
+        .android-btn {
+          background: white;
+          color: #2e9f79;
+          margin-right: 20px;
+          font-weight: 700;
+        }
+
+        .apple-btn {
+          background: transparent;
+          border: 2px solid white;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .phone-photo {
+      width: 50%;
+      position: relative;
+      height: 400px;
+
+      .girl {
+        position: absolute;
+        width: 400px;
+        height: 600px;
+        z-index: 1;
+        transform: translate3d(0, -200px, 0);
+      }
+
+      .boy {
+        position: absolute;
+        width: 400px;
+        height: 600px;
+        z-index: 2;
+        transform: translate3d(300px, 100px, 0);
+      }
+
+      .shape1 {
+        width: 600px;
+        height: 600px;
+        border: 1px dashed white;
+      }
+    }
+  }
+}
