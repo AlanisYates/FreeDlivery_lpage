@@ -10,6 +10,7 @@ body {
   font-family: "Manrope", sans-serif;
   // background: #2e9f79;
   height: 100%;
+  overflow: hidden;
 }
 
 header {
@@ -70,7 +71,7 @@ header {
 
 .container {
   max-width: 1200px;
-  margin: 0px auto;
+  margin: 0 auto;
 
   #home {
     height: calc(100vh - 90px);
@@ -170,7 +171,7 @@ header {
   position: relative;
   transform: translate3d(200px, -1200px, 0);
   z-index: -99;
-  overflow: hidden;
+
 }
 
 .shape3 {
@@ -182,5 +183,5 @@ header {
   position: relative;
   transform: translate3d(600px, -600px, 0);
   z-index: -100;
-  overflow: hidden;
+  
 }

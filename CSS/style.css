@@ -9,6 +9,7 @@ html,
 body {
   font-family: "Manrope", sans-serif;
   height: 100%;
+  overflow: hidden;
 }
 
 header {
@@ -95,7 +96,7 @@ header .menu .menu-btn {
 
 .container {
   max-width: 1200px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .container #home {
@@ -217,7 +218,6 @@ header .menu .menu-btn {
   -webkit-transform: translate3d(200px, -1200px, 0);
           transform: translate3d(200px, -1200px, 0);
   z-index: -99;
-  overflow: hidden;
 }
 
 .shape3 {
@@ -231,6 +231,5 @@ header .menu .menu-btn {
   -webkit-transform: translate3d(600px, -600px, 0);
           transform: translate3d(600px, -600px, 0);
   z-index: -100;
-  overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */
