@@ -137,21 +137,12 @@ header {
       position: relative;
       height: 400px;
 
-      .girl {
-        position: absolute;
-        width: 400px;
-        height: 600px;
+      .phone-pic {
+        // position: absolute;
         z-index: 1;
-        transform: translate3d(0, -200px, 0);
+        transform: translate3d(-150px, 0, 0);
       }
 
-      .boy {
-        position: absolute;
-        width: 400px;
-        height: 600px;
-        z-index: 2;
-        transform: translate3d(300px, 100px, 0);
-      }
 
       .shape1 {
         width: 600px;

@@ -183,22 +183,10 @@ header .menu .menu-btn {
   height: 400px;
 }
 
-.container #home .phone-photo .girl {
-  position: absolute;
-  width: 400px;
-  height: 600px;
+.container #home .phone-photo .phone-pic {
   z-index: 1;
-  -webkit-transform: translate3d(0, -200px, 0);
-          transform: translate3d(0, -200px, 0);
-}
-
-.container #home .phone-photo .boy {
-  position: absolute;
-  width: 400px;
-  height: 600px;
-  z-index: 2;
-  -webkit-transform: translate3d(300px, 100px, 0);
-          transform: translate3d(300px, 100px, 0);
+  -webkit-transform: translate3d(-150px, 0, 0);
+          transform: translate3d(-150px, 0, 0);
 }
 
 .container #home .phone-photo .shape1 {
