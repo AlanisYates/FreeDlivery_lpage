@@ -3,12 +3,12 @@
 * {
   font-family: "Manrope", sans-serif;
   box-sizing: border-box;
+  
 }
 
 html,
 body {
   font-family: "Manrope", sans-serif;
-  // background: #2e9f79;
   height: 100%;
   overflow: hidden;
 }
@@ -117,10 +117,12 @@ header {
         }
 
         .android-btn {
-          background: #2e9f79;
+          background: #3edc76;
           color: white;
           margin-right: 20px;
           font-weight: 700;
+
+
         }
 
         .apple-btn {
@@ -128,6 +130,7 @@ header {
           border: 2px solid #2e9f79;
           font-weight: 700;
           color: #2e9f79;
+
         }
       }
     }
@@ -142,7 +145,6 @@ header {
         z-index: 1;
         transform: translate3d(-150px, 0, 0);
       }
-
 
       .shape1 {
         width: 600px;
@@ -162,7 +164,6 @@ header {
   position: relative;
   transform: translate3d(200px, -1200px, 0);
   z-index: -99;
-
 }
 
 .shape3 {
@@ -174,5 +175,4 @@ header {
   position: relative;
   transform: translate3d(600px, -600px, 0);
   z-index: -100;
-  
 }
